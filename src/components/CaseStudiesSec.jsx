@@ -3,6 +3,10 @@ import SRimg1 from "../assets/Seo Results/Casestudies2.png";
 import SRimg2 from "../assets/Seo Results/Casestudies3.png";
 import SRimg3 from "../assets/Seo Results/Casestudies4.png";
 import gadcamImg from "../assets/Seo Results/gacampaings.jpg";
+import fbadimg1 from "../assets/Seo Results/fb-ad-img1.jpg";
+import fbadimg2 from "../assets/Seo Results/fb-ad-img2.jpg";
+import fbadimg3 from "../assets/Seo Results/fb-ad-img3.jpg";
+import fbadimg4 from "../assets/Seo Results/fb-ad-img4.jpg";
 import { motion } from "framer-motion"
 import React from "react";
 
@@ -95,8 +99,40 @@ function CaseStudiesSec() {
                   </button>
       </div>
       <div className="fbAdds">
-          <img src="{gadcamImg}" alt="" />
-          <h2></h2>
+          <img className="w-full" src={fbadimg1} alt="" />
+          <h2 className="text-[24px] font-[800] my-4">FACEBOOK ADS CASE STUDIES-1</h2>
+          <button className="py-2 px-3 bg-[#1E1E79] text-white text-[12px] rounded-full">
+                    <a href="https://webuiexpert.com/wp-content/uploads/2024/10/Paradise-Galaries-I-Ecommerce-I-Facebook-Ads-Case-Study-Copy.pdf" target="_blank">
+                      View Case Studies...
+                    </a>
+                  </button>
+      </div>
+      <div className="fbAdds">
+          <img className="w-full" src={fbadimg2} alt="" />
+          <h2 className="text-[24px] font-[800] my-4">FACEBOOK ADS CASE STUDIES-2</h2>
+          <button className="py-2 px-3 bg-[#1E1E79] text-white text-[12px] rounded-full">
+                    <a href="https://webuiexpert.com/wp-content/uploads/2024/10/Citadel-Theatre-I-Lead-Generation-I-Facebook-Ads-Case-Study.pdf" target="_blank">
+                      View Case Studies...
+                    </a>
+                  </button>
+      </div>
+      <div className="fbAdds">
+          <img className="w-full" src={fbadimg3} alt="" />
+          <h2 className="text-[24px] font-[800] my-4">FACEBOOK ADS CASE STUDIES-3</h2>
+          <button className="py-2 px-3 bg-[#1E1E79] text-white text-[12px] rounded-full">
+                    <a href="https://webuiexpert.com/wp-content/uploads/2024/10/Bombay-Takeout-I-Ecommerce-I-Facebook-Ads-Case-Study.pdf" target="_blank">
+                      View Case Studies...
+                    </a>
+                  </button>
+      </div>
+      <div className="fbAdds">
+          <img className="w-full" src={fbadimg4} alt="" />
+          <h2 className="text-[24px] font-[800] my-4">FACEBOOK ADS CASE STUDIES-4</h2>
+          <button className="py-2 px-3 bg-[#1E1E79] text-white text-[12px] rounded-full">
+                    <a href="https://webuiexpert.com/wp-content/uploads/2024/10/Alphard-Golf-I-Ecommerce-I-Facebook-Ads-Case-Study1.pdf" target="_blank">
+                      View Case Studies...
+                    </a>
+                  </button>
       </div>
 
     </div>
