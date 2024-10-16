@@ -55,9 +55,9 @@ function AboutSection() {
           </div>
           <div className="11-13 flex flex-col items-start">
             <div className="innerCol flex items-center gap-2">
-              <h3 className="text-[26px] leading-[1em] font-bold">2011</h3>
+              <h3 className="text-[26px] leading-[1em] font-bold">2015</h3>
               <div className="w-7 h-[3px] bg-black"></div>
-              <h3 className="text-[26px] font-bold leading-[1em]">2013</h3>
+              <h3 className="text-[26px] font-bold leading-[1em]">2019</h3>
             </div>
             <h4 className="lg:text-[20px] text:[18px] font-bold">
             Digital Marketing Executive at Wwics.
