@@ -10,16 +10,8 @@ function SolveBtnSection() {
       <h2 className="lg:text-4xl text-[24px] text-center font-bold text-white">
         Let's Solve your problem.
       </h2>
-      <PopupButton
-              className="lg:mt-10 mt-5 lg:text-[18px] text-[16px] leading-8 lg:px-14 px-8 py-2 border text-white font-bold bg-[#13a300]"
-              url="https://calendly.com/auditseoexperts"
-              rootElement={document.getElementById("root")}
-              text="Book an Appointment Today!!"
-            />
-    
-      
-
-    </div>
+      <button className="bookBtn relative lg:mt-10 mt-5 lg:text-[18px] text-[16px] leading-8 lg:px-14 px-8 py-2 border text-white font-bold bg-[#13a300]"><a href="#contact">Book an Appointment Today!!</a> </button>
+         </div>
   );
 }
 

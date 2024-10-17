@@ -1,5 +1,4 @@
 import React from 'react'
-import { PopupButton } from "react-calendly";
 
 
 function ResultSection() {
@@ -11,12 +10,7 @@ function ResultSection() {
     <p className="lg:text-[22px] text-[16px] sm:text-[20px] text-center lg:mt-0 mt-2">Supercharge Your SEO Campaign Today!</p>
     <p className="lg:text-[22px] text-[16px] sm:text-[20px] text-center">Get Free Consultation</p>
     
-    <PopupButton
-              className="lg:mt-10 mt-5 lg:text-[18px] text-[16px] leading-8 lg:px-14 px-8 py-2 border text-white font-bold bg-[#13a300]"
-              url="https://calendly.com/auditseoexperts"
-              rootElement={document.getElementById("root")}
-              text="Book an Appointment Today!!"
-            /> 
+    <button className="bookBtn relative lg:mt-10 mt-5 lg:text-[18px] text-[16px] leading-8 lg:px-14 px-8 py-2 border text-white font-bold bg-[#13a300]"><a href="#contact">Book an Appointment Today!!</a> </button>
     <h3 className="italic font-bold lg:text-2xl text-[18px] leading-[1.8em] mt-2">or connect me <a href="tel:+91-9115144232">+91-9115144232</a></h3>
     
 

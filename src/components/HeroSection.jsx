@@ -1,6 +1,5 @@
 import React from "react";
 import PersonalImage from "../assets/pankaj-img.png";
-import { PopupButton } from "react-calendly";
 import { motion } from "framer-motion"
 import { IoIosMail } from "react-icons/io";
 import { MdLocalPhone } from "react-icons/md";
@@ -16,14 +15,18 @@ function HeroSection() {
         <h2 className="lg:block hidden">a Digital Marketing & Sales</h2>
         <h2 className="lg:block hidden">Strategiest from India.</h2>
         <h2 className="lg:hidden block">a Digital Marketing & Sales Strategiest from India.</h2>
-        <h5 className="lg:my-4 lg:w-[738px] lg:text-[24px] text-[18px] font-extrabold lg:leading-[1.2em]">
+        <h5 className="my-4 lg:w-[738px] lg:text-[24px] text-[18px] font-extrabold lg:leading-[1.2em]">
           Wants to boost your brand identity/sales or Rank higher on Google? No
           problem.
         </h5>
-        <div className="btnBox lg:mt-0 mt-5 gap-10 lg:flex justify-between">
+        <div className="contact-links mb-4">
+        <a href="tel:+91-9115144232" className="flex gap-2 text-[32px] items-center">  <MdLocalPhone /> <p className="text-[24px] font-mono hover:underline duration-500">+91-9115144232</p></a>
+        <a href="mailto:auditseoexperts@gmail.com" className="flex gap-2 text-[38px] items-center"> <IoIosMail /> <p className="text-[24px] font-mono hover:underline duration-500">auditseoexperts@gmail.com</p></a>
+        </div>
+        <div className="btnBox lg:mt-0 mt-5 gap-10 lg:flex items-end justify-between">
           <div className="letGoBtn w-fit relative">
             <a href="https://api.whatsapp.com/send/?phone=919115144232&text&type=phone_number&app_absent=0">
-            <button className="text-[18px] leading-8 px-8 py-2 border bg-[#13a300]">
+            <button className="bookBtn relative text-[18px] leading-8 px-8 py-2 border bg-[#13a300]">
               Lets Connect
             </button></a>
             <svg
@@ -69,18 +72,9 @@ function HeroSection() {
               </defs>
             </svg>
           </div>
-          <div className="lg:mt-0 mt-4 appontBtn">
-          <PopupButton
-              className="text-[18px] leading-8 px-4 py-2 border"
-              url="https://calendly.com/auditseoexperts"
-              rootElement={document.getElementById("root")}
-              text="Book an Appointment"
-            />
-          </div>
-        </div>
-        <div className="contact-links mt-6">
-        <a href="tel:+91-9115144232" className="flex gap-2 text-[32px] items-center">  <MdLocalPhone /> <p className="text-[24px] font-mono hover:underline duration-500">+91-9115144232</p></a>
-        <a href="mailto:auditseoexperts@gmail.com" className="flex gap-2 text-[38px] items-center"> <IoIosMail /> <p className="text-[24px] font-mono hover:underline duration-500">auditseoexperts@gmail.com</p></a>
+        
+          <button className="bookBtn relative lg:text-[18px] text-[16px] leading-1 lg:px-2 px-8 p-0 border text-white font-bold bg-[transparent]"><a href="#contact">Book An Appointment</a> </button>
+      
         </div>
       </ motion.div>
       <motion.div initial={{x:100}} animate={{ x: 0 }}

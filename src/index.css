@@ -142,6 +142,57 @@ input, textarea{
 
 }
 
+
+.bookBtn:after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 1.5px;
+    background: #fff;
+    transition: all ease 1s;
+}
+.bookBtn:hover:after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 1.5px;
+    background: #fff;
+}
+/* -------------- */
+.bookBtn:before{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 0%;
+    height: 1px;
+    background: transparent;
+    transition: all ease 1s;
+}
+
+.bookBtn:hover:before{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 1.5px;
+    background: #fff;
+}
+.bookBtn:hover{
+    background: transparent;
+    transition: all ease 1s;
+
+
+}
+
 @media (320px <= width <=800px) {
 
     .slick-prev:before,
