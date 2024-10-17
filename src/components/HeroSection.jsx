@@ -78,9 +78,9 @@ function HeroSection() {
             />
           </div>
         </div>
-        <div className="contact-links flex gap-4 mt-6">
-        <a href="mailto:auditseoexperts@gmail.com" className="flex gap-2 text-[38px] items-center"> <IoIosMail /> <p className="text-[24px] font-mono hover:underline duration-500">auditseoexperts@gmail.com</p></a>
+        <div className="contact-links mt-6">
         <a href="tel:+91-9115144232" className="flex gap-2 text-[32px] items-center">  <MdLocalPhone /> <p className="text-[24px] font-mono hover:underline duration-500">+91-9115144232</p></a>
+        <a href="mailto:auditseoexperts@gmail.com" className="flex gap-2 text-[38px] items-center"> <IoIosMail /> <p className="text-[24px] font-mono hover:underline duration-500">auditseoexperts@gmail.com</p></a>
         </div>
       </ motion.div>
       <motion.div initial={{x:100}} animate={{ x: 0 }}
