@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  presets: ["babel-preset-react-app"],
+  plugins: ["@babel/plugin-proposal-private-property-in-object"],
 }
 
