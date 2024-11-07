@@ -35,7 +35,7 @@ function Navbar() {
               <li className="leading-[18px]">Contact</li>
             </a>
           </ul>
-         <button className="bookBtn relative lg:text-[18px] text-[16px] leading-8 lg:px-4 px-8 py-4 border text-white font-bold bg-[#13a300]"><a href="#contact">Book An Appointment</a> </button>
+         <button className="bookBtn lg:block hidden relative lg:text-[18px] text-[16px] leading-8 lg:px-4 px-8 py-4 border text-white font-bold bg-[#13a300]"><a href="#contact">Book An Appointment</a> </button>
         </div>
 
      

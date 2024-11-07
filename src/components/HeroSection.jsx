@@ -24,7 +24,7 @@ function HeroSection() {
         <a href="mailto:auditseoexperts@gmail.com" className="flex gap-2 text-[38px] items-center"> <IoIosMail /> <p className="text-[24px] font-mono hover:underline duration-500">auditseoexperts@gmail.com</p></a>
         </div>
         <div className="btnBox lg:mt-0 mt-5 gap-10 lg:flex items-end justify-between">
-          <div className="letGoBtn w-fit relative">
+          <div className="letGoBtn w-fit lg:mb-0 mb-4 relative">
             <a href="https://api.whatsapp.com/send/?phone=919115144232&text&type=phone_number&app_absent=0">
             <button className="bookBtn relative text-[18px] leading-8 px-8 py-2 border bg-[#13a300]">
               Lets Connect
@@ -73,7 +73,7 @@ function HeroSection() {
             </svg>
           </div>
         
-          <button className="bookBtn relative lg:text-[18px] text-[16px] leading-1 lg:px-2 px-8 p-0 border text-white font-bold bg-[transparent]"><a href="#contact">Book An Appointment</a> </button>
+          <button className="bookBtn relative lg:text-[18px] text-[16px] leading-1 lg:px-2 lg:py-0 px-8 py-3 border text-white font-bold bg-[transparent]"><a href="#contact">Book An Appointment</a> </button>
       
         </div>
       </ motion.div>
