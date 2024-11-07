@@ -11,7 +11,7 @@ function HeroSection() {
     <div className="max-w-[1320px] mx-auto lg:py-20 py-7 flex lg:flex-row md:flex-row  flex-col-reverse lg:gap-0 gap-5">
       <motion.div className="textSection text-white lg:text-[52px] text-[28px] font-extrabold lg:leading-[56px] lg:w-[70%] md:w-[60%] w-full flex flex-col items-start justify-center">
         <h2 className="">Hello,</h2>
-        <h2 className="">I am Pankaj Gosain, </h2>
+        <h2 className="">I am Husan Chand, </h2>
         <h2 className="lg:block hidden">a Digital Marketing & Sales</h2>
         <h2 className="lg:block hidden">Strategiest from India.</h2>
         <h2 className="lg:hidden block">a Digital Marketing & Sales Strategiest from India.</h2>

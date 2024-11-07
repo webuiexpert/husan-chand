@@ -22,7 +22,7 @@ function AboutSection() {
           Whether it's running successful SEO and PPC campaigns, optimizing user journeys, or leading social media, content, and email marketing initiatives, I’ve successfully managed multiple projects that have led to measurable improvements in brand awareness and business outcomes.
           </p>
           <button className="bookBtn relative hover:bg-[#1E1E79] mt-5 text-[18px] leading-8 px-8 py-2 border text-white font-bold bg-[#13a300]">
-            <a href="https://www.thecsshouse.com/wp-content/uploads/2023/02/Pankaj_Gosain_-_Digital_Marketing_Expert_SEOPPC-CSSHouse.pdf" target="_black">Download Resume</a>
+            <a href="https://webuiexpert.com/wp-content/uploads/2024/11/Hushan_Chand_-_Digital_Marketing_Expert_SMMPPCSEO.pdf" target="_black">Download Resume</a>
           </button>
         </div>
         <div className="expYear lg:w-1/2 lg:pl-10 flex text-[14px] flex-col gap-5">

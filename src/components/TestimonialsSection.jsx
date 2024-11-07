@@ -10,21 +10,21 @@ const data = [
     title: "Jeff",
     subtitle: "Marketing Director",
     ClientImg: ClientImg1,
-    reviews:"Pankaj was a pleasure to work with and I will use him again-",
+    reviews:"Husan was a pleasure to work with and I will use him again-",
     Starsimg: Stars,
   },
   {
     title: "Juan",
     subtitle: "Project Account Manager",
     ClientImg: ClientImg1,
-    reviews: "Pankaj is exceptional at what he does. It was a real pleasure meeting him and working with him. I would highly recommend Pankaj for Local SEO needs. We were more than pleased with the work he provided us. Looking forward to working with him again soon.",
+    reviews: "Husan is exceptional at what he does. It was a real pleasure meeting him and working with him. I would highly recommend Husan for Local SEO needs. We were more than pleased with the work he provided us. Looking forward to working with him again soon.",
     Starsimg: Stars,
   },
   {
     title: "Yashveer",
     subtitle: "Project Manager",
     ClientImg: ClientImg1,
-    reviews: "Pankaj was very helpful and proactive in doing his job. He took initiatives and delivered really good results.",
+    reviews: "Husan was very helpful and proactive in doing his job. He took initiatives and delivered really good results.",
     Starsimg: Stars,
   },
   {
@@ -32,7 +32,7 @@ const data = [
     subtitle: "Creative Director",
     ClientImg: ClientImg1,
     reviews:
-      "Pankaj is fantastic. He took care of everything we needed. After talking to him for 15 minutes and going through his processes during our initial call, you knew that he was more than capable. His completion time and efficiency are also phenomenal. I will definitely be going back to him!",
+      "Husan is fantastic. He took care of everything we needed. After talking to him for 15 minutes and going through his processes during our initial call, you knew that he was more than capable. His completion time and efficiency are also phenomenal. I will definitely be going back to him!",
     Starsimg: Stars,
   },
   {
@@ -40,7 +40,7 @@ const data = [
     subtitle: "Ecommerce Director",
     ClientImg: ClientImg1,
     reviews:
-      "Pankaj was extremely knowledgeable and professional. He was thorough in his communication, easy to work with, and great with His management of all deliverables.",
+      "Husan was extremely knowledgeable and professional. He was thorough in his communication, easy to work with, and great with His management of all deliverables.",
     Starsimg: Stars,
   },
 ];
